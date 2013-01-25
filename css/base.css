@@ -226,6 +226,10 @@ a.bttn {
     
 }
 
+.collapse {
+    padding-bottom: 1em;
+}
+
 .button {
     background: url(../images/arrow-down-big.png) top right no-repeat;
    
@@ -289,7 +293,9 @@ a.bttn {
 h2.expand {
     font-size: 1em;
     margin: 0px;
-    padding: 1em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
    
     
 }
