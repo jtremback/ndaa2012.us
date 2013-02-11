@@ -33,7 +33,7 @@ body {
 
 ol, ul {
 margin: 1em 0;
-padding-left: 40px;
+padding-left: 1em;
 }
 
 blockquote, q {
@@ -111,6 +111,19 @@ hr {
     background-color: #999;
     height: 3px;
     
+}
+
+hr.light {
+    border: none;
+    margin: .7em 0;
+    background-color: #bbb;
+    height: 1px;
+    
+}
+
+ul.nodot {
+    padding-left: 0;
+    list-style-type: none;
 }
 
 #logo {
@@ -314,14 +327,17 @@ a, a:link, a:visited {
 
 .button {
     box-shadow: inset -1px 2px 2px white, inset 1px -2px 2px #bbb, 2px 2px 9px  #eee;
-    border: 1px solid #eedede;
-    border-radius: 4px;
     padding:0 1em;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
 }
 
 .button:hover {
-    box-shadow: inset 1px -2px 2px #fff, inset -1px 1px 2px #BBB;
-    
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .floater {
